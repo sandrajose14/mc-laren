@@ -1,0 +1,34 @@
+.cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(public/c1.webp);
+    background-position: center;
+    background-size: 100%;
+    padding: 23px 8%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    position: relative;
+  }
+  .textss{
+    font-family:soho-gothic-pro, Arial, sans-serif;
+    font-size:28px;
+   }
+   .textsss{
+   font-family:mclaren-bespoke, "Courier New", Arial;
+   font-size:100px;
+   }
+  
+  .cover-txt{
+    margin-top: 200px;
+    margin-left: -60px;
+  }
+  @media (max-width: 400px) {
+    .textss{
+      font-family:soho-gothic-pro, Arial, sans-serif;
+      font-size:18px;
+     }
+     .textsss{
+     font-family:mclaren-bespoke, "Courier New", Arial;
+     font-size:50px;
+     }
+  }
